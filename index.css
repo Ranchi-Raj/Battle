@@ -103,7 +103,7 @@
 }
 
 .para3{
-    margin-top: 15%;
+    margin-top: 16.5%;
     margin-bottom: 5%;
     font-size: 3rem;
     margin-left: 5%;
@@ -155,4 +155,79 @@
 
 .para5-text{
     width: 10%;
+}
+
+.image-2{
+    width: 83%;
+    padding: 8.5%;
+}
+
+.text-content2{
+    color: #000000;
+    font-size: 25rem;
+    display: inline-block;
+    font-weight: 200;
+    padding-right: -100%;
+    animation: scroll 15s linear reverse infinite;
+}
+
+@keyframes scroll2{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+.cont-para6{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.para6{
+    width: 33%;
+    height: auto;
+    font-size: 1.5rem;
+    padding-right: 3%;
+}
+
+.sector{
+    font-size: 18rem;
+    letter-spacing: 15px;
+    margin-left: 13%;
+    font-weight: 100;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 20%;
+}
+
+.talk{
+    font-size: 18rem;
+    padding-left: 40px;
+}
+
+.foot-details{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.row1{
+    font-size: 2rem;
+    line-height: 10px;
+}
+
+.r1{
+    font-size: 1.5rem;
+}
+
+.r2{
+    opacity: .5;
+    word-wrap: break-word;
 }
